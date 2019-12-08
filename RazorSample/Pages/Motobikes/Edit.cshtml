@@ -1,5 +1,5 @@
-@page
-@model RazorSample.Pages.Motobikes.CreateModel
+@page "{id:int}"
+@model RazorSample.Pages.Motobikes.EditModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -7,48 +7,33 @@
 
 <h1>Edit</h1>
 
-<h4>Motobike</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Motobike.Name" class="control-label"></label>
-                <input asp-for="Motobike.Name" class="form-control" />
-                <span asp-validation-for="Motobike.Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Motobike.Color" class="control-label"></label>
-                <input asp-for="Motobike.Color" class="form-control" />
-                <span asp-validation-for="Motobike.Color" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Motobike.Type" class="control-label"></label>
-                <input asp-for="Motobike.Type" class="form-control" />
-                <span asp-validation-for="Motobike.Type" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Motobike.Price" class="control-label"></label>
-                <input asp-for="Motobike.Price" class="form-control" />
-                <span asp-validation-for="Motobike.Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Motobike.Id_Supplier" class="control-label"></label>
-                <input asp-for="Motobike.Id_Supplier" class="form-control" />
-                <span asp-validation-for="Motobike.Id_Supplier" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-page="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+<form method="post">
+    <table>
+        <div asp-validation-summary="All"></div>
+        <tr>
+            <input type="hidden" asp-for="Motobike.Id">
+            <td>Name</td>
+            <td><input asp-for="Motobike.Name"></td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td><input asp-for="Motobike.Color"></td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td><input asp-for="Motobike.Type"></td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td><input asp-for="Motobike.Price"></td>
+        </tr>
+        <tr>
+            <td>Id_Supplier</td>
+            <td><input asp-for="Motobike.Id_Supplier"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit"></td>
+        </tr>
+    </table>
+</form>
