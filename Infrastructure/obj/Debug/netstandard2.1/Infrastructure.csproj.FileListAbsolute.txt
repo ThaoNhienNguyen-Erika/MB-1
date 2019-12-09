@@ -1,0 +1,11 @@
+E:\IT\CongNghePhanMem\MB\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+E:\IT\CongNghePhanMem\MB\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+E:\IT\CongNghePhanMem\MB\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+E:\IT\CongNghePhanMem\MB\Infrastructure\bin\Debug\netstandard2.1\ApplicationCore.dll
+E:\IT\CongNghePhanMem\MB\Infrastructure\bin\Debug\netstandard2.1\ApplicationCore.pdb
+E:\IT\CongNghePhanMem\MB\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+E:\IT\CongNghePhanMem\MB\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+E:\IT\CongNghePhanMem\MB\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+E:\IT\CongNghePhanMem\MB\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+E:\IT\CongNghePhanMem\MB\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+E:\IT\CongNghePhanMem\MB\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb

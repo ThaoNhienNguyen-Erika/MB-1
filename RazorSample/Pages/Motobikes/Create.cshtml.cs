@@ -1,6 +1,7 @@
+using ApplicationCore.Entities;
+using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using RazorSample.Models;
 using System;
 using System.Threading.Tasks;
 
@@ -8,9 +9,9 @@ namespace RazorSample.Pages.Motobikes
 {
     public class CreateModel : PageModel
     {
-        private readonly RazorSample.Data.MotobikeContext _context;
+        private readonly MotobikeContext _context;
 
-        public CreateModel(RazorSample.Data.MotobikeContext context)
+        public CreateModel(MotobikeContext context)
         {
             _context = context;
         }

@@ -151,3 +151,4 @@ E:\IT\CongNghePhanMem\MB\RazorSample\bin\Debug\netcoreapp3.0\ApplicationCore.dll
 E:\IT\CongNghePhanMem\MB\RazorSample\bin\Debug\netcoreapp3.0\Infrastructure.dll
 E:\IT\CongNghePhanMem\MB\RazorSample\bin\Debug\netcoreapp3.0\Infrastructure.pdb
 E:\IT\CongNghePhanMem\MB\RazorSample\bin\Debug\netcoreapp3.0\ApplicationCore.pdb
+E:\IT\CongNghePhanMem\MB\RazorSample\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll

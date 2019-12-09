@@ -1,0 +1,8 @@
+E:\IT\CongNghePhanMem\MB\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.deps.json
+E:\IT\CongNghePhanMem\MB\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.dll
+E:\IT\CongNghePhanMem\MB\ApplicationCore\bin\Debug\netstandard2.1\ApplicationCore.pdb
+E:\IT\CongNghePhanMem\MB\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.csprojAssemblyReference.cache
+E:\IT\CongNghePhanMem\MB\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfoInputs.cache
+E:\IT\CongNghePhanMem\MB\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.AssemblyInfo.cs
+E:\IT\CongNghePhanMem\MB\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.dll
+E:\IT\CongNghePhanMem\MB\ApplicationCore\obj\Debug\netstandard2.1\ApplicationCore.pdb

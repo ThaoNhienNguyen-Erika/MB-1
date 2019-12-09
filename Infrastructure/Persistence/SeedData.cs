@@ -1,12 +1,10 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using RazorSample.Data;
 using System;
 using System.Linq;
+using ApplicationCore.Entities;
 
-namespace RazorSample.Models
+namespace Infrastructure.Persistence
 {
-    public static class SeedData
+    public class SeedData
     {
         public static void Initialize(MotobikeContext context)
         {

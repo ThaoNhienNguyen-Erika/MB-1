@@ -2,12 +2,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using RazorSample.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Linq;
-using RazorSample.Data;
 using System;
+using ApplicationCore.Common;
+using ApplicationCore.Entities;
+using Infrastructure.Persistence;
 
 namespace RazorSample.Pages.Motobikes
 {

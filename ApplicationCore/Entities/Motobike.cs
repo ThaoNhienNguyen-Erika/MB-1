@@ -1,4 +1,4 @@
-namespace RazorSample.Models
+namespace ApplicationCore.Entities
 {
     public class Motobike : Product
     {

@@ -1,7 +1,7 @@
+using ApplicationCore.Entities;
 using Microsoft.EntityFrameworkCore;
-using RazorSample.Models;
 
-namespace RazorSample.Data
+namespace Infrastructure.Persistence
 {
     public class MotobikeContext : DbContext
     {
@@ -10,5 +10,10 @@ namespace RazorSample.Data
         }
 
         public DbSet<Motobike> Motobikes{ get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(MotobikeContext).Assembly);
+        }
     }
 }

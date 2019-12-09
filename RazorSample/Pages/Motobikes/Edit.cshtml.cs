@@ -1,17 +1,18 @@
 using System.Linq;
 using System.Threading.Tasks;
+using ApplicationCore.Entities;
+using Infrastructure.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using RazorSample.Models;
 
 namespace RazorSample.Pages.Motobikes
 {
     public class EditModel : PageModel
     {
-        private readonly RazorSample.Data.MotobikeContext _context;
+        private readonly MotobikeContext _context;
 
-        public EditModel(RazorSample.Data.MotobikeContext context)
+        public EditModel(MotobikeContext context)
         {
             _context = context;
         }

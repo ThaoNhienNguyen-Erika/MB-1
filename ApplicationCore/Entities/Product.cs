@@ -1,6 +1,8 @@
-namespace RazorSample.Models
+using ApplicationCore.Interfaces;
+
+namespace ApplicationCore.Entities
 {
-    public class Product
+    public class Product : IAggregateRoot
     {
         public int Id { get; set; }
 

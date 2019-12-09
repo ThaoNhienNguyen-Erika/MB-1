@@ -1,9 +1,9 @@
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using RazorSample.Models;
 
-namespace RazorSample
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ApplicationCore.Common
 {
     public class PaginatedList<T> : List<T>
     {
